@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+body {
+  background: radial-gradient(#201d47, #17153a);
+  min-height: 100vh;
+}
+
+.bg-color-1 {
+  background: radial-gradient(#201d47, #17153a);
+}
+
+.bg-color-2 {
+  background: linear-gradient(to bottom, #262250 0%, #1b1942 57%, #17163b 100%);
+}

@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
+import Layout from "@/components/layout";
+import { Hedvig_Letters_Sans } from "next/font/google";
+
+const font = Hedvig_Letters_Sans({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "Crypto Dashboard",
@@ -13,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className={`${font.className} antialiased`}>
+        <Layout>{children}</Layout>
+      </body>
     </html>
   );
 }

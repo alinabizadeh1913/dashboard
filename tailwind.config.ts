@@ -7,6 +7,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "600px",
+      md: "900px",
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -14,5 +18,6 @@ export default {
       },
     },
   },
+
   plugins: [],
 } satisfies Config;

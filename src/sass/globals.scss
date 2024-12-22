@@ -1,4 +1,27 @@
+// Tailwind
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+// Variable
+
+$body-bg: radial-gradient(#201d47, #17153a);
+$bg-color-1: radial-gradient(#201d47, #17153a);
+$bg-color-2: linear-gradient(to bottom, #262250 0%, #1b1942 57%, #17163b 100%);
+
+// Reboot
+
+body {
+  background: $body-bg;
+  min-height: 100vh;
+}
+
+.bg-color-1 {
+  background: $bg-color-1;
+}
+
+.bg-color-2 {
+  background: $bg-color-2;
+}

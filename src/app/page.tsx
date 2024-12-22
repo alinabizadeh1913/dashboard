@@ -1,5 +1,11 @@
+import Home from "@/components/home";
+
 const HomePage = async () => {
-  return <></>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 };
 
 export default HomePage;
