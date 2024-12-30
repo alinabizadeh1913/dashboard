@@ -5,23 +5,83 @@
 @tailwind utilities;
 @tailwind variants;
 
+// Tailwind
+
 // Variable
 
-$body-bg: radial-gradient(#201d47, #17153a);
-$bg-color-1: radial-gradient(#201d47, #17153a);
-$bg-color-2: linear-gradient(to bottom, #262250 0%, #1b1942 57%, #17163b 100%);
+// Background
+
+$background-main: radial-gradient(#0c2235, #0c2235ee);
+$background-element: linear-gradient(
+  to bottom,
+  #113854e8 0%,
+  #113854d3 57%,
+  #0a2233 100%
+);
+
+// Hover
+
+$hover-primary: linear-gradient(
+  45deg,
+  #40ddff 0%,
+  #14bae3 19%,
+  #13b1e6 69%,
+  #11aadf 82%,
+  #0b98c5 100%
+);
+$hover-secondary: #0d5173;
+
+// Text
+
+$text-primary: #87adff;
+$text-secondary: #617ebb;
+$text-info: #2b8eff;
+$text-success: #50e3c2;
+$text-danger: #e3507a;
+
+// Variable
 
 // Reboot
 
 body {
-  background: $body-bg;
+  background: $background-main;
   min-height: 100vh;
 }
 
-.bg-color-1 {
-  background: $bg-color-1;
+.background-main {
+  background: $background-main;
 }
 
-.bg-color-2 {
-  background: $bg-color-2;
+.background-element {
+  background: $background-element;
 }
+
+.hover-primary:hover {
+  background: $hover-primary;
+}
+
+.hover-secondary:hover {
+  background: $hover-secondary;
+}
+
+.text-primary {
+  color: $text-primary;
+}
+
+.text-secondary {
+  color: $text-secondary;
+}
+
+.text-info {
+  color: $text-info;
+}
+
+.text-success {
+  color: $text-success;
+}
+
+.text-danger {
+  color: $text-danger;
+}
+
+// Reboot

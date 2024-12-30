@@ -14,7 +14,7 @@ const Typography = ({
       {tag == "h1" && (
         <h1
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -24,7 +24,7 @@ const Typography = ({
       {tag == "h2" && (
         <h2
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -34,7 +34,7 @@ const Typography = ({
       {tag == "h3" && (
         <h3
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -44,7 +44,7 @@ const Typography = ({
       {tag == "h4" && (
         <h4
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -54,7 +54,7 @@ const Typography = ({
       {tag == "h5" && (
         <h5
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -64,7 +64,7 @@ const Typography = ({
       {tag == "h6" && (
         <h6
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -74,7 +74,7 @@ const Typography = ({
       {tag == "p" && (
         <p
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >
@@ -84,7 +84,7 @@ const Typography = ({
       {!tag && (
         <p
           style={{
-            color: color ? color : "white",
+            color
           }}
           className={className}
         >

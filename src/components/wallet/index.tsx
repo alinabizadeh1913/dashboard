@@ -1,12 +1,13 @@
 import Typography from "../layout/components/typography";
 
-const Home = () => {
+const Wallet = () => {
   return (
     <>
       <Typography className="text-4xl text-white font-[500]">
-        Dashboard
+        Wallet
       </Typography>
     </>
   );
 };
-export default Home;
+
+export default Wallet;
