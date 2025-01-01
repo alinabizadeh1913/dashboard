@@ -42,3 +42,7 @@ body {
 .text-danger {
   color: #e3507a;
 }
+
+.button-primary {
+  background: linear-gradient(to right, #ff409a, #c438ef);
+}

@@ -5,7 +5,7 @@ const Section = ({
 }: {
   children?: React.ReactNode;
   container?: boolean;
-  space: "large" | "medium" | "small";
+  space?: "large" | "medium" | "small";
 }) => {
   return (
     <>
